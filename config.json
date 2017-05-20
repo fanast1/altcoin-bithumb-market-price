@@ -1,0 +1,39 @@
+{
+  "express": {
+    "logger": {
+      "format": "dev"   // combined common dev short tiny
+    },
+
+    "port": 80
+  },
+
+  "logger": {
+    "level": "trace",
+    "slowtime": true
+  },
+
+  "socket": {
+    "url": "https://api.bithumb.com/public/",
+
+    "connectKey": "e095ae28f54cd5165ac51a24999c6f7d",
+    "secretKey": "0987a21cc4e765342c4487beade7601d",
+
+    "currency": ["BTC", "ETH", "DASH", "LTC", "ETC"]
+  },
+
+  "auth": {
+
+  },
+
+  "db": {
+    "development": {
+
+    },
+
+    "production": {
+
+    }
+  }
+
+
+}
